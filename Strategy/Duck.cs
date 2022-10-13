@@ -53,4 +53,13 @@ namespace SimUDuck
             SetQuack(new QuackLikeSpaniel());
         }
     }
+
+    public class SuperDuck : Duck
+    {
+        public SuperDuck()
+        {
+            SetFly(new FlyWithJetPropulsion());
+            SetQuack(new QuackLikeMallard());
+        }
+    }
 }
